@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Irish+Grover&family=Italiana&family=Jacquard+12&family=Jacques+Francois+Shadow&family=Julee&family=Kablammo&family=Kumar+One&family=Monomakh&family=Pacifico&family=Pixelify+Sans:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Guerrilla&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Pixels&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Viaoda+Libre&family=Yeon+Sung&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+}
+
+header {
+    background-color: rgb(77, 77, 77);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+    padding: 0 5px;
+}
+
+h1 {
+    color: white;
+    font-family: "Italiana", sans-serif;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nava {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.search input {
+    border-radius: 8px;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:2%;
+}
+
+h6 {
+    padding: 1%;
+    color: white;
+}
+
+.icona {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    background-color: rgba(53, 53, 53, 0.404);
+}
+
+.info {
+    background-color: rgba(77, 77, 77, 0.753);
+    margin: 2%;
+    padding: 2%;
+    color: white;
+    border-radius: 20px;
+}
+
+.infotop {
+    font-weight: 700;
+    text-align: center;
+    font-size: 22px;
+}
+
+p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+@media (max-width: 1920px) { 
+    body {
+        font-size: 16px;
+        padding: 2%;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    main {
+        padding: 2%
+    }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
