@@ -3,40 +3,50 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: birder-box;
+    overflow-x: hidden
 }
+
 body {
     font-family: "Roboto Mono", monospace;
 }
+
 header {
     background-color: rgb(77, 77, 77);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .logo {
     display: flex;
     align-items: center;
 }
+
 .logoimg {
     width: 10%;
     height: auto;
     object-fit: contain;
     padding: 0 5px;
 }
+
 h1 {
     color: white;
     font-family: "Italiana", sans-serif;
 }
+
 ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
+
 .nava {
     color: white;
     text-decoration: none;
     margin-right: 50px;
 }
+
 .search input {
     border-radius: 8px;
     padding: 8px 20px;
@@ -50,14 +60,35 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    pading: 2%;
 }
 
 h6 {
-    padding: 5%;
+    padding: 1%;
+    color: white;
+}
+
+.icona{
+    text-decoration: none;
+    color: black
 }
 
 main {
     background-color: rgba(53, 53, 53, 0.404);
+}
+
+.info{
+    bacgroung-color: rgba(77, 77, 77, 0.753);
+    margin: 2%;
+    padding: 2%;
+    color: white;
+    border-radius: 20px;
+}
+
+.infotop {
+    font-weight:700;
+    text-align: center;
+    font-size: 22px;
 }
 
 p {
@@ -79,20 +110,9 @@ p {
     main {
         padding: 2%
     }
-    .menu {
-        display: flex;
-        flex-direction: row;
-        gap: 16px;
-    }
-}
-
-* {
-    box-sizing: border-box;
 }
 
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    font-family: sans-serif;
 }
